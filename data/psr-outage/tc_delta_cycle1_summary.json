@@ -1,0 +1,43 @@
+{
+ "capture": "replication/data/psr-outage/Experiment_4_Phaze_2_run2.hostclean.txt",
+ "gap": [
+  304.9,
+  415.2
+ ],
+ "sig_d": 5.0,
+ "variants": {
+  "DELTA-v0-noclock": {
+   "pre_rmse_m": 1044.1918342589258,
+   "pre_rej": 54,
+   "pre_acc": 542,
+   "post_rej": 118,
+   "post_acc": 1141,
+   "recovery_s": 2.400000000000034,
+   "post_rmse_m": 1540.3216817822208,
+   "total_acc": 1693,
+   "total_rej": 173
+  },
+  "DELTA-v1-rateRW": {
+   "pre_rmse_m": 1409.514756498937,
+   "pre_rej": 52,
+   "pre_acc": 544,
+   "post_rej": 117,
+   "post_acc": 1142,
+   "recovery_s": 2.400000000000034,
+   "post_rmse_m": 2244.150155101778,
+   "total_acc": 1696,
+   "total_rej": 170
+  },
+  "DELTA-v2-rateRD": {
+   "pre_rmse_m": 1169.4816248377779,
+   "pre_rej": 54,
+   "pre_acc": 542,
+   "post_rej": 126,
+   "post_acc": 1133,
+   "recovery_s": 2.400000000000034,
+   "post_rmse_m": 2634.1404891745556,
+   "total_acc": 1685,
+   "total_rej": 181
+  }
+ }
+}

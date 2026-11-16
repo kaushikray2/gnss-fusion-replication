@@ -1,0 +1,22 @@
+{
+ "capture": "replication/data/psr-skyview/GNSS_Data.hostclean.txt",
+ "gap": null,
+ "sig_d": 5.0,
+ "variants": {
+  "DELTA-v0-noclock": {
+   "rmse_static_m": 758.6929598165826,
+   "total_acc": 17987,
+   "total_rej": 1765
+  },
+  "DELTA-v1-rateRW": {
+   "rmse_static_m": 907.0091945413095,
+   "total_acc": 18016,
+   "total_rej": 1736
+  },
+  "DELTA-v2-rateRD": {
+   "rmse_static_m": 778.7925056085392,
+   "total_acc": 18002,
+   "total_rej": 1750
+  }
+ }
+}

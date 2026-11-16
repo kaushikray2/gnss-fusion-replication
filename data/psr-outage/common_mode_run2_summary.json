@@ -1,0 +1,8 @@
+{
+ "rate_median_m_per_epoch": -9065.088961869478,
+ "rate_iqr_m": 9.017028704285622,
+ "pairs_used": 113,
+ "longest_run_epochs": 3,
+ "nco_implied_rate_m_per_epoch": -9064.63910375011,
+ "rate_minus_nco_m_per_epoch": -0.44985811936749087
+}

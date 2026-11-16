@@ -1,0 +1,17 @@
+capture: replication/data/psr-skyview/GNSS_Data.hostclean.txt
+epochs: 5983 | $PSTMTS lines: 108397 raw, 68102 parsed (short/spliced rows dropped) | usable after filters (dsp=1, Satdat=1, |SatPos| in [24e6,29.5e6]): 44314
+TG NCO median: -47421.0 Hz (both bench modules sit at ~-48 kHz indefinitely - a steady-state property of this module family, NOT a settling transient; it is common-mode and cancels in the circular statistics below)
+Test A (raw residues geo-PsR): spread=156511787 m  std=55566893 m -> no constant offset
+Test B (mod c*200 ms, all SVs):
+    200 ms grid: epochs=5773  per-epoch max deviation  min=92638 m  median=18044278 m  max=29977225 m
+    200 ms grid: largest +/-10 km cluster: 4 of 7 lines
+Test C (mod c*200 ms, split):
+    200 ms GPS: epochs=4152  per-epoch max deviation  min=51313 m  median=214772 m  max=29977998 m
+    200 ms GPS: largest +/-10 km cluster: 3 of 6 lines
+    200 ms GLONASS: epochs=2158  per-epoch max deviation  min=5645 m  median=109141 m  max=7447359 m
+    200 ms GLONASS: largest +/-10 km cluster: 4 of 5 lines
+Test D (mod c*20 ms, all SVs):
+    20 ms grid: epochs=5773  per-epoch max deviation  min=50729 m  median=204214 m  max=2989162 m
+    20 ms grid: largest +/-10 km cluster: 5 of 9 lines
+Test E (largest-cluster, +/-10 km): best 200 ms = 4/7 lines, best 20 ms = 5/9 lines
+VERDICT: no shared grid - cross-SV ambiguity rule NOT established. Per the notes: plan experiment 4 on per-channel ambiguity states or time-differenced PsR; do not design around single-epoch absolute PsR.

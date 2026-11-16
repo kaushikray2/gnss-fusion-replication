@@ -1,0 +1,5 @@
+scenario,estimator,full_mean,full_std,chal_mean,chal_std,max_mean,final_mean,ms_step
+open,LC-UKF,0.892,0.049,0.892,0.049,2.534,0.715,0.310
+canyon,LC-UKF,7.818,0.821,9.504,1.884,25.563,6.565,0.313
+forest,LC-UKF,7.291,2.506,11.184,3.940,22.484,1.253,0.315
+stress,LC-UKF,0.901,0.050,1.024,0.120,2.616,0.715,0.320

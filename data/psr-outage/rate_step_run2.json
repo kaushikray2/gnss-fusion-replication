@@ -1,0 +1,54 @@
+{
+ "cycle1": {
+  "pre": {
+   "n": 34,
+   "median": 0.2,
+   "iqr": 6.89
+  },
+  "post": {
+   "n": 39,
+   "median": 0.52,
+   "iqr": 3.52
+  },
+  "step": 0.32
+ },
+ "cycle2": {
+  "pre": {
+   "n": 43,
+   "median": 0.51,
+   "iqr": 3.68
+  },
+  "post": {
+   "n": 30,
+   "median": -4.92,
+   "iqr": 8.52
+  },
+  "step": -5.43
+ },
+ "control1": {
+  "pre": {
+   "n": 70,
+   "median": 0.74,
+   "iqr": 2.17
+  },
+  "post": {
+   "n": 79,
+   "median": 0.46,
+   "iqr": 2.09
+  },
+  "step": -0.28
+ },
+ "control2": {
+  "pre": {
+   "n": 159,
+   "median": 0.45,
+   "iqr": 2.7
+  },
+  "post": {
+   "n": 193,
+   "median": 0.68,
+   "iqr": 2.31
+  },
+  "step": 0.23
+ }
+}

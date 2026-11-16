@@ -1,0 +1,14 @@
+{
+ "capture": "replication/data/psr-skyview/GNSS_Data.hostclean.txt",
+ "epochs_loaded": 5982,
+ "n_admitted_pairs": 2461,
+ "span_min": 100.21476308333332,
+ "raw_rate_median_m_per_epoch": -9023.996933199465,
+ "raw_rate_iqr_m": 5.554884523153305,
+ "resid_median_m_per_epoch": 0.11767413957386452,
+ "resid_iqr_m": 1.987092795458011,
+ "resid_p5_p95_m": [
+  -9.409823343863536,
+  9.416043680083021
+ ],
+ "nco_median_hz": -47421.0

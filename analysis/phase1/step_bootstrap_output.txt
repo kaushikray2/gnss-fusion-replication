@@ -1,0 +1,2 @@
+cycle1: step +0.32 m/epoch, bootstrap 95% CI [-1.97, +2.70]
+cycle2: step -5.42 m/epoch, bootstrap 95% CI [-7.79, -0.99]

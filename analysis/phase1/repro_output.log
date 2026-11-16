@@ -1,0 +1,39 @@
+M1/M2: bias-only TC-EKF, forest, 100 seeds
+faithfulness: mean challenge RMSE = 175.913 (archived 175.913)
+challenge RMSE median 260.63  p25 13.12  p75 268.66
+seed 0 t=171 acc=3/9 err=112.7 t=200 acc=9/9 err=0.6 t=239 acc=9/9 err=0.5
+seed 1 t=171 acc=0/8 err=15.8 t=200 acc=2/9 err=220.6 t=239 acc=2/9 err=347.9
+seed 2 t=171 acc=2/9 err=143.0 t=200 acc=2/9 err=223.6 t=239 acc=2/9 err=339.3
+seed 3 t=171 acc=0/9 err=2.8 t=200 acc=3/9 err=74.6 t=239 acc=9/9 err=1.1
+seed 4 t=171 acc=2/9 err=137.1 t=200 acc=2/9 err=217.6 t=239 acc=2/9 err=336.2
+recovered after outage 1 (min err t=170..240 < 5 m): 39/100
+recovered after outage 1 (< 10 m): 41/100
+final err < 5 m: 6/100
+=====
+== param set: measured
+open LC challenge RMSE mean 0.899
+open ZUPT challenge RMSE mean 0.867
+open ORACLE challenge RMSE mean 0.805
+open detector: recall 0.955  false-fire-on-moving 0.0753  precision 0.408
+forest LC challenge RMSE mean 10.667
+forest ZUPT challenge RMSE mean 4.497
+forest ORACLE challenge RMSE mean 3.226
+forest detector: recall 0.955  false-fire-on-moving 0.0753  precision 0.408
+== param set: measured
+open LC challenge RMSE mean 0.842
+open ZUPT challenge RMSE mean 1.037
+open ORACLE challenge RMSE mean 0.686
+open detector: recall 0.951  false-fire-on-moving 0.0795  precision 0.394
+forest LC challenge RMSE mean 6.277
+forest ZUPT challenge RMSE mean 4.677
+forest ORACLE challenge RMSE mean 0.979
+forest detector: recall 0.951  false-fire-on-moving 0.0795  precision 0.394
+== param set: assumed
+open LC challenge RMSE mean 0.899
+open ZUPT challenge RMSE mean 0.867
+open ORACLE challenge RMSE mean 0.805
+open detector: recall 0.955  false-fire-on-moving 0.0753  precision 0.408
+forest LC challenge RMSE mean 10.667
+forest ZUPT challenge RMSE mean 4.497
+forest ORACLE challenge RMSE mean 3.226
+forest detector: recall 0.955  false-fire-on-moving 0.0753  precision 0.408

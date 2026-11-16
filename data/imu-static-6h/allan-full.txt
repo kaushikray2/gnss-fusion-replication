@@ -1,0 +1,13 @@
+samples: 4106166, span 40041.4 s, dt median 0.0097 s (nominal 0.0098)
+gyro axis 0: density 4.692e-05 /sqrt(Hz), bias instability 2.359e-05
+gyro axis 1: density 4.105e-05 /sqrt(Hz), bias instability 1.032e-05
+gyro axis 2: density 4.645e-05 /sqrt(Hz), bias instability 3.506e-05
+accel axis 0: density 6.075e-04 /sqrt(Hz), bias instability 5.065e-04
+accel axis 1: density 5.351e-04 /sqrt(Hz), bias instability 5.233e-04
+accel axis 2: density 5.157e-04 /sqrt(Hz), bias instability 2.785e-04
+
+Suggested simulator parameters (per-sample sigma at 10 Hz):
+  SIG_G = 0.0001 rad/s   (density 4.481e-05 * sqrt(rate))
+  SIG_A = 0.0017 m/s^2   (density 5.528e-04 * sqrt(rate))
+  BG_SD ~ 0.0000 rad/s   (bias instability, static-log estimate)
+  BA_SD ~ 0.0004 m/s^2   (bias instability, static-log estimate)

@@ -1,0 +1,2 @@
+PHASEA2 epochs 5982 | outcomes {'diverge@0': 5394, 'lt5sv': 534}
+PHASEA2 solved 54 | discrepancy median 650277 m p10 183040 p90 3107562 min 55475 max 14326081

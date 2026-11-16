@@ -1,0 +1,37 @@
+M6 FOREST: N=11299, 10 stops
+M6 FOREST baseline LC-EKF     closure   2.61 stopMed   6.08 stopMax  10.56
+M6 FOREST baseline LC-UKF     closure   2.52 stopMed   6.00 stopMax  10.22
+M6 FOREST baseline ZUPT-EKF   closure   2.72 stopMed   4.08 stopMax  12.04
+M6 FOREST baseline RTS-SMOOTH closure   3.74 stopMed   2.54 stopMax   8.66
+M6 FOREST rotate LC-EKF     closure   2.61 stopMed   6.08 stopMax  10.56
+M6 FOREST rotate LC-UKF     closure   2.52 stopMed   6.00 stopMax  10.22
+M6 FOREST rotate ZUPT-EKF   closure   2.72 stopMed   4.08 stopMax  12.04
+M6 FOREST rotate RTS-SMOOTH closure   3.74 stopMed   2.54 stopMax   8.66
+M6 FOREST q10 LC-EKF     closure   4.00 stopMed   3.21 stopMax   6.10
+M6 FOREST q10 LC-UKF     closure   4.06 stopMed   3.13 stopMax   6.17
+M6 FOREST q10 ZUPT-EKF     closure   3.03 stopMed   2.24 stopMax   3.55
+M6 FOREST q10 RTS-SMOOTH closure   3.41 stopMed   1.61 stopMax   2.80
+M6 FOREST q100 LC-EKF     closure   3.50 stopMed   1.32 stopMax   2.27
+M6 FOREST q100 LC-UKF     closure   3.49 stopMed   1.32 stopMax   2.55
+M6 FOREST q100 ZUPT-EKF     closure   3.09 stopMed   0.68 stopMax   1.80
+M6 FOREST q100 RTS-SMOOTH closure   3.41 stopMed   0.53 stopMax   1.43
+M6 FOREST seed1 LC-EKF     closure   2.48 stopMed   6.07 stopMax  10.36
+M6 FOREST seed1 ZUPT-EKF   closure   2.69 stopMed   4.10 stopMax  12.10
+M6 FOREST seed2 LC-EKF     closure   2.85 stopMed   6.08 stopMax  10.69
+M6 FOREST seed2 ZUPT-EKF   closure   2.78 stopMed   4.17 stopMax  11.73
+M6 FOREST seed3 LC-EKF     closure   2.87 stopMed   6.07 stopMax  10.72
+M6 FOREST seed3 ZUPT-EKF   closure   2.77 stopMed   4.22 stopMax  11.59
+M6 FOREST seed4 LC-EKF     closure   2.93 stopMed   6.09 stopMax  10.85
+M6 FOREST seed4 ZUPT-EKF   closure   2.77 stopMed   4.26 stopMax  11.50
+M6 FOREST seed5 LC-EKF     closure   2.80 stopMed   6.08 stopMax  10.67
+M6 FOREST seed5 ZUPT-EKF   closure   2.75 stopMed   4.16 stopMax  11.78
+M6 FOREST seed6 LC-EKF     closure   3.03 stopMed   6.09 stopMax  10.96
+M6 FOREST seed6 ZUPT-EKF   closure   2.80 stopMed   4.31 stopMax  11.38
+M6 FOREST seed7 LC-EKF     closure   2.78 stopMed   6.09 stopMax  10.66
+M6 FOREST seed7 ZUPT-EKF   closure   2.76 stopMed   4.10 stopMax  11.89
+M6 FOREST seed8 LC-EKF     closure   2.72 stopMed   6.08 stopMax  10.62
+M6 FOREST seed8 ZUPT-EKF   closure   2.74 stopMed   4.06 stopMax  11.93
+M6 FOREST seed9 LC-EKF     closure   2.66 stopMed   6.06 stopMax  10.54
+M6 FOREST seed9 ZUPT-EKF   closure   2.74 stopMed   4.06 stopMax  11.94
+M6 FOREST unmarked still episodes >=5 s while walking: 0, total 0 s []
+M6 FOREST DONE

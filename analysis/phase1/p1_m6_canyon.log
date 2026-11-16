@@ -1,0 +1,37 @@
+M6 CANYON: N=13170, 15 stops
+M6 CANYON baseline LC-EKF     closure   1.37 stopMed   4.44 stopMax   9.31
+M6 CANYON baseline LC-UKF     closure   5.10 stopMed   5.06 stopMax   8.94
+M6 CANYON baseline ZUPT-EKF   closure   2.61 stopMed   7.21 stopMax  17.16
+M6 CANYON baseline RTS-SMOOTH closure   4.40 stopMed   3.97 stopMax   9.51
+M6 CANYON rotate LC-EKF     closure   3.96 stopMed   4.85 stopMax   9.74
+M6 CANYON rotate LC-UKF     closure   5.34 stopMed   5.54 stopMax   9.22
+M6 CANYON rotate ZUPT-EKF   closure   2.33 stopMed   6.22 stopMax  17.43
+M6 CANYON rotate RTS-SMOOTH closure   5.59 stopMed   4.10 stopMax   9.03
+M6 CANYON q10 LC-EKF     closure   2.94 stopMed   2.84 stopMax   6.10
+M6 CANYON q10 LC-UKF     closure   3.10 stopMed   2.82 stopMax   6.02
+M6 CANYON q10 ZUPT-EKF     closure   3.51 stopMed   3.07 stopMax   8.63
+M6 CANYON q10 RTS-SMOOTH closure   4.48 stopMed   0.94 stopMax   5.41
+M6 CANYON q100 LC-EKF     closure   4.54 stopMed   0.82 stopMax   2.52
+M6 CANYON q100 LC-UKF     closure   4.52 stopMed   0.83 stopMax   2.51
+M6 CANYON q100 ZUPT-EKF     closure   3.78 stopMed   1.95 stopMax   4.27
+M6 CANYON q100 RTS-SMOOTH closure   4.73 stopMed   0.43 stopMax   2.73
+M6 CANYON seed1 LC-EKF     closure   4.85 stopMed   4.88 stopMax   9.84
+M6 CANYON seed1 ZUPT-EKF   closure   2.61 stopMed   7.08 stopMax  17.07
+M6 CANYON seed2 LC-EKF     closure   4.58 stopMed   3.60 stopMax   8.15
+M6 CANYON seed2 ZUPT-EKF   closure   2.68 stopMed   7.56 stopMax  17.44
+M6 CANYON seed3 LC-EKF     closure   4.96 stopMed   3.53 stopMax   7.61
+M6 CANYON seed3 ZUPT-EKF   closure   2.65 stopMed   7.61 stopMax  17.51
+M6 CANYON seed4 LC-EKF     closure   5.05 stopMed   3.14 stopMax   6.73
+M6 CANYON seed4 ZUPT-EKF   closure   2.64 stopMed   7.57 stopMax  17.57
+M6 CANYON seed5 LC-EKF     closure   4.13 stopMed   3.77 stopMax   8.30
+M6 CANYON seed5 ZUPT-EKF   closure   2.63 stopMed   7.53 stopMax  17.42
+M6 CANYON seed6 LC-EKF     closure   5.17 stopMed   4.07 stopMax   6.73
+M6 CANYON seed6 ZUPT-EKF   closure   2.68 stopMed   7.54 stopMax  17.64
+M6 CANYON seed7 LC-EKF     closure   2.51 stopMed   4.26 stopMax   8.69
+M6 CANYON seed7 ZUPT-EKF   closure   2.66 stopMed   7.43 stopMax  17.34
+M6 CANYON seed8 LC-EKF     closure   1.24 stopMed   4.24 stopMax   9.02
+M6 CANYON seed8 ZUPT-EKF   closure   2.65 stopMed   7.37 stopMax  17.28
+M6 CANYON seed9 LC-EKF     closure   1.44 stopMed   4.46 stopMax   9.32
+M6 CANYON seed9 ZUPT-EKF   closure   2.63 stopMed   7.36 stopMax  17.27
+M6 CANYON unmarked still episodes >=5 s while walking: 5, total 36 s [('906', '6'), ('958', '14'), ('1023', '5'), ('1141', '6'), ('1234', '6')]
+M6 CANYON DONE
