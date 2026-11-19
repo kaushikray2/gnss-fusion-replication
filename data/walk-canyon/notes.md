@@ -11,6 +11,7 @@ clustering resolves them, as with the forest capture).
 **Delivered file:** `capture-20261115-163638.txt`,
 20,851,507 bytes, sha256
 a2aa0375f27f22f7d77635fc5ddbbdf41e65e1e41f6efbfc1c35ac7b17e15ddb
+Release asset (v1.0.0): `walk-canyon-raw-capture-2026-11-15.txt`.
 (original on the owner's laptop; copy uploaded by the author
 2026-11-15). Two captures in one appended file:
 

@@ -34,7 +34,7 @@ sys.path.insert(0, os.path.join(ROOT, 'simulation'))
 import tc_delta as td  # noqa: E402  (load_tg; imports tc_real)
 import tc_real as tr  # noqa: E402
 
-CAPTURE = os.path.join(ROOT, 'replication', 'data', 'psr-skyview',
+CAPTURE = os.path.join(ROOT, 'data', 'psr-skyview',
                        'GNSS_Data.hostclean.txt')
 C = 299792458.0
 F_L1 = 1575.42e6

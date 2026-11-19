@@ -13,6 +13,41 @@ Developed by **SiliconBrane Inc** (author: Kaushik Ray).
 
 Status: assembled 2026-11-07; finalized for public release 2026-11-16. License: see the `LICENSE` file in this repository. Dataset status is tracked in `data/README.md`.
 
+## Quick start
+
+Install the two dependencies (Python 3.12; everything else is the
+standard library):
+
+```
+pip install -r requirements.txt
+```
+
+Regenerate the paper's figures from the committed data:
+
+```
+# Figures 1-3 (simulation) - byte-identical to data/simulation-100seed/
+cd code/python
+mkdir -p results && cp ../../data/simulation-100seed/results.json results/
+python3 plot.py
+
+# Figure 4 (clock-rate continuity, Section V-C)
+cd ../..
+python3 data/psr-skyview/strip_host_prefix.py data/psr-skyview/GNSS_Data.txt > data/psr-skyview/GNSS_Data.hostclean.txt
+cd code/python
+python3 make_fig_clockrate.py
+```
+
+Self-tests and the full re-run:
+
+```
+python3 tc_selftest.py
+python3 tc_delta_selftest.py
+python3 sim.py --out results_full   # full 100-seed Monte Carlo (several minutes)
+```
+
+Section 8 below gives the same pipeline in context, and Section 1 maps
+every figure and table to the script and dataset behind it.
+
 ## 1. Traceability: every claim maps to code and data
 
 ### 1a. What is already in the paper (simulation)

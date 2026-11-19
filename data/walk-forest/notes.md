@@ -9,6 +9,7 @@ recorder = walk_monitor.py on the owner's laptop.
 appends to one file, so both segments are in it),
 16,898,484 bytes, sha256
 4602c4fd35a3c4fb714b05667ea23c75db909d47e1d1e5214e31bac361e41e27.
+Release asset (v1.0.0): `walk-forest-raw-capture-2026-11-14.txt`.
 Original on the owner's laptop; a copy was uploaded by the author
 on 2026-11-14. The file holds two captures:
 
