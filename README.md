@@ -42,7 +42,7 @@ Self-tests and the full re-run:
 ```
 python3 tc_selftest.py
 python3 tc_delta_selftest.py
-python3 sim.py --out results_full   # full 100-seed Monte Carlo (several minutes)
+python3 sim.py --seeds 100 --out results_full   # full 100-seed Monte Carlo (tens of minutes)
 ```
 
 Section 8 below gives the same pipeline in context, and Section 1 maps
@@ -285,7 +285,7 @@ working without it, but Experiment 4 needs the raw sentences):
 
 ```
 cd code/python
-python3 sim.py          # Monte Carlo; writes results like data/simulation-100seed/
+python3 sim.py --seeds 100  # Monte Carlo, 100 seeds (= the committed dataset); writes results like data/simulation-100seed/
 python3 plot.py         # figures from the results
 python3 ukf_sensitivity.py
 ```
